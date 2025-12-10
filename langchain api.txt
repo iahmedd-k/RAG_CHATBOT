@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.runnables import RunnablePassthrough
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+
+import os
+from dotenv import load_dotenv
+from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.runnables import RunnablePassthrough
+from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
+
+
+
+pinecode free api =  pcsk_352njE_U5uAgf6uazUHofYCt9bLqFJy3QSUdt1W6cyjLXdRSpqtsAJLGPK3bre6S7CN7D9

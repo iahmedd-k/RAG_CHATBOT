@@ -1,0 +1,83 @@
+.env
+db/
+
+# -----------------------
+# Node / Backend
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+log.txt
+
+# Build output
+dist/
+build/
+temp/
+tmp/
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Database
+*.sqlite
+*.db
+*.db-journal
+
+# PM2 logs
+.pm2/
+
+# -----------------------
+# React / Frontend
+# -----------------------
+# Build folder
+/build
+/dist
+
+# Local config
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache
+.cache/
+.eslintcache
+/.parcel-cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Uploads (optional)
+uploads/
+public/uploads/
+
+# -----------------------
+# Misc
+*.zip
+*.tar
+*.gz
